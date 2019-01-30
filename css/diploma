@@ -1,18 +1,18 @@
 @font-face {
 font-family: "OpenSans";
 src: 
-url('../fonts/OpenSans-Regular.woff') format("woff"),
-url('../fonts/OpenSans-Regular.woff2') format("woff2"),
-url('../fonts/OpenSans-Regular.ttf') format('truetype'),
-url('../fonts/OpenSans-Bold.woff') format("woff"),
-url('../fonts/OpenSans-Bold.woff2') format("woff2"),
-url('../fonts/OpenSans-Bold.ttf') format('truetype');
+url('sources/fonts/OpenSans-Bold.ttf') format("woff"),
+url('sources/fonts/OpenSans-Regular.woff2') format("woff2"),
+url('sources/fonts/OpenSans-Regular.ttf') format('truetype'),
+url('sources/fonts/OpenSans-Bold.woff') format("woff"),
+url('sources/fonts/OpenSans-Bold.woff2') format("woff2"),
+url('sources/fonts/OpenSans-Bold.ttf') format('truetype');
 }
 
 html {
   font-family: OpenSans, sans-serif;
   font-style: normal;
-  text-align: center;
+  text-align: left;
 }
 
 body {
@@ -46,7 +46,7 @@ h1, h2 {
 }
 
 .apple__icon, .surface_logo_text, .google__icon, .surface_logo {
-  fill: #552635;  /*от фонаря*/
+  fill: #ffffff;  
   width: 54px;
   height: 54px; 
 }

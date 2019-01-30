@@ -21,19 +21,86 @@ body {
 
 h1, h2 {
   text-transform: uppercase;
+  font-color: #c1c1c1;
 }
 
 .rectangle {
-  height: 2em;
-  width: 5em;
+  background: #5e42b0;
+  border-radius: 1px;  
+  padding: 20px; 
+  width: 25px;
+  height: 2px;
+}
+
+.rectangle2 {
+  background: linear-gradient(#7751db, #50329c);
+  border-radius: 10px;  
+  padding: 30px; 
+  width: 70px;
+  height: 70px;
+  border: 1px solid green;
+}
+
+.surface_logo {
+  border: 1px solid red;
+}
+
+.apple__icon, .surface_logo_text, .google__icon, .surface_logo {
+  fill: #552635;  /*от фонаря*/
+  width: 54px;
+  height: 54px; 
+}
+
+.button {  
+  border: none;
+  color: #5e42b0;
+  
+  text-align: center;
+  text-decoration: none;
+  /*display: inline-block;
+  margin: 40px 20px;
+  cursor: pointer;*/
+}
+
+.button__google__play, .button__app__store{
+  border-radius: 10px;
+  weight: 280px;   /* от фонаря*/
   background-color: #5e42b0;
+  /*margin: 40px 20px;*/
+  padding: 50px;
+}
+
+.top__preview:before, .footer__preview:before {
+    background-color: #0c1040;
+    opacity: 0.9;
+ }
+
+.athlets__connection {
+    background: #fafafa;
+}
+  
+.athlets__collaboration {
+  background: #f5f4f9;
+}
+  
+.athlets__growth {
+  background: #5e42b0;
+}
+
+.find_contact__number, work_it__number {
+  background: #5e42b0;
+  border-radius: 1px;  
+  padding: 20px; 
+  width: 70px;  /*перевести в em*/
+  height: 70px; /*перевести в em*/
+}
+
+.work_it__preview {
+  
 }
 
 @media (max-width: 639px) {
-  .top__preview:before {
-    background-color: #0c1040;
-    opacity: 0.9;
-  }
+  
   
   .top__background {
     max-width: 100%;
@@ -84,15 +151,10 @@ h1, h2 {
     font-size: 1.4em;
   }
   
-  .athlets__connection {
-    background: #fafafa;
-  }
   
-  .athlets__collaboration {
-    background: #f5f4f9;
-  }
   
-  .athlets__growth {
+  .be_active__number {
+    width: 300px;
     background: #5e42b0;
   }
 }

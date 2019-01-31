@@ -12,11 +12,53 @@ url('sources/fonts/OpenSans-Bold.ttf') format('truetype');
 html {
   font-family: OpenSans, sans-serif;
   font-style: normal;
-  text-align: left;
+  text-align: center;
 }
 
 body {
   margin: 0;
+}
+
+.top_page {
+  border: 1px solid red;
+  position: relative;
+	color: #ffffff;    /*посмотреть*/
+	/*min-height: 50px;
+	font-size: 20px;*/
+}
+/*из дз*/
+
+.top_page::after {
+	content: "";	
+	background-color: rgba(29, 29, 29, 0.5);  /*посмотреть*/
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.preview {
+	max-width: 100%;
+	display: block;
+  border: 1px solid green;
+}
+
+.top__body {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 1em;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 2;    /*надо ли???*/
+  border: 1px solid blue;
+
+}
+
+.top__title {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 28px;    /*это зависит от медиа*/
+  font-color: #c1c1c1;
 }
 
 h1, h2 {
@@ -24,37 +66,20 @@ h1, h2 {
   font-color: #c1c1c1;
 }
 
-.rectangle {
-  background: #5e42b0;
-  border-radius: 1px;  
-  padding: 20px; 
-  width: 25px;
-  height: 2px;
-}
-
-.rectangle2 {
-  background: linear-gradient(#7751db, #50329c);
-  border-radius: 10px;  
-  padding: 30px; 
-  width: 70px;
-  height: 70px;
-  border: 1px solid green;
-}
-
-.surface_logo {
-  border: 1px solid red;
-}
-
 .apple__icon, .surface_logo_text, .google__icon, .surface_logo {
   fill: #ffffff;  
-  width: 54px;
-  height: 54px; 
+  width: 30%;   /*это зависит от медиа*/
+}
+
+.store_buttons {
+  border: 1px solid blue;
+  display: inline-block;
+  margin: 140px 120px;   /*это зависит от медиа*/
 }
 
 .button {  
   border: none;
-  color: #5e42b0;
-  
+  color: #5e42b0;  
   text-align: center;
   text-decoration: none;
   /*display: inline-block;
@@ -74,6 +99,23 @@ h1, h2 {
     background-color: #0c1040;
     opacity: 0.9;
  }
+
+.rectangle {
+  background: #5e42b0;
+  border-radius: 1px;  
+  padding: 20px; 
+  width: 25px;
+  height: 2px;
+}
+
+.rectangle2 {
+  background: linear-gradient(#7751db, #50329c);
+  border-radius: 10px;  
+  padding: 30px; 
+  width: 70px;
+  height: 70px;
+  border: 1px solid green;
+}
 
 .athlets__connection {
     background: #fafafa;
@@ -108,7 +150,6 @@ h1, h2 {
   }
   
   .surface_logo_text {
-    fill: #000000; /*от фонаря*/
     width: 30%; /*от фонаря*/
     top-margin: 100px;  /*от фонаря*/
   }
@@ -160,16 +201,23 @@ h1, h2 {
 }
 
 
-@media all and (max-width:30em){
+/*@media all and (max-width:30em){
  a.button__app__store, a.button__google__play {
   display:block;
   margin:0.2em auto;
- }
+ }*/
   
-  @media (min-width: 640px) {
+@media (min-width: 640px) {
   .body {
     display: flex;
     flex-wrap: wrap;
   }
 }
 
+@media (min-width: 960px) {
+  .body {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

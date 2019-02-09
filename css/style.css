@@ -834,19 +834,11 @@ pt to px
    }
   
   .surface_logo_text {
-    width: 11.87em; /*перевести в em*/
-    /*margin-top: 32px;  перевести в em*/
+    width: 11.87em; 
   }
   
   .top__body::before {
     background-image: url("https://raw.githubusercontent.com/varyabeauff/Diploma/master/sources/images/football_1920.jpg");
-  }
-  
-  .store_buttons {
-    /*border: 1px solid blue;*/
-    /*margin: 140px 20px;   /*это зависит от медиа*/
-      /*align-content: space-around;*/
-    /*position: relative;*/
   }
   
   .footer__body::before {
@@ -862,17 +854,19 @@ pt to px
   .top__title {
       /*margin: 20px; от фонаря*/
       margin-top: 290px; /*перевести в em*/
+      margin-bottom: 0;
       /*margin-bottom: 20px;*/
       font-size: 5.6em;
     }
     
   .top__title1 {
-    margin-top: 5px; /*от фонаря перевести в em*/
+    margin-top: 0; /*от фонаря перевести в em*/
+      
     /*margin-left: 195px; /*перевести в em*/
     text-align: right;
   }
     
-  .apple {
+  .android {
     margin-left: 130px; /*перевести в em*/
   }
   
@@ -1105,4 +1099,3 @@ pt to px
         margin-top: 150px;
     }
 }
-

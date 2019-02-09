@@ -12,7 +12,7 @@ url('/sources/fonts/OpenSans-Bold.ttf') format('truetype');
 /*@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');*/
 
 * {
-	box-sizing : border-box; 
+  box-sizing : border-box; 
 }
 
 html {
@@ -160,7 +160,7 @@ pt to px
 }
   
 .text_pgrowth {
-    color: #8765dd;
+  color: #8765dd;
 }
 
 .athlets__connection, 
@@ -209,17 +209,16 @@ pt to px
 
 .rectangle2 {
   background: linear-gradient(#7751db, #50329c);
-  border: 1px solid green;
 }
 
 .footer__title {
-  margin: 3% 0;
+  /*margin: 3% 0 0;*/
   text-transform: uppercase;
   text-align: center;
 }
 
 .footer__subtitle {
-  margin: 3% 0;
+  /*margin: -12px 0;*/
   text-transform: uppercase;
   color: #9b8ec1;
   font-weight: 400;
@@ -227,9 +226,7 @@ pt to px
 }
 
 
-@media (max-width: 640px) {  /*телефон*/
-    
-    
+@media (max-width: 640px) {  /*телефон*/ 
   .surface_logo_text {
     width: 8.25em; 
     /*margin-top: 11.4em;  */
@@ -256,7 +253,7 @@ pt to px
     line-height: 18px; /*перевести в em*/
   }
     
-    .top__body, .footer__body {
+  .top__body, .footer__body {
   position: relative;   /*убрать, если появились лишние места*/
   padding: 25px 20px;
   box-sizing: border-box;
@@ -270,14 +267,13 @@ pt to px
       /*margin: 20px; от фонаря*/
       margin-top: 135px; /*перевести в em*/
     }
-    
-  
+      
   .top__title1 {
     margin-top: 13px; /*от фонаря перевести в em*/
     margin-left: 44px; /*перевести в em*/
   }
     
-    .top-message {
+  .top-message {
         position: relative;
     }
   
@@ -290,8 +286,8 @@ pt to px
     /*position: relative;
   }*/
     
-.download {
-    min-width: 100%;
+  .download {
+  min-width: 100%;
   width: 280px;
   height: 35px;
   float: left;
@@ -300,33 +296,32 @@ pt to px
   box-sizing: border-box;
 }
 
-.download > .fa {
+  .download > .fa {
     position: absolute;
   top: calc(50% - 12px);
   left: 82px;  
 }
 
-.df,
-.dfn {
+  .df,
+  .dfn {
   position: absolute;
   left: 112px;
 }
 
-.df {
+  .df {
   top: calc(25% - 0.5em);
   font-size: 0.5em;
 }
 
-.dfn {
+  .dfn {
   margin-top: 2em;
   font-size: 0.5em;
 }
     
-    .google__icon, .apple__icon {
+  .google__icon, .apple__icon {
   position: absolute;
   height: 24px;
 }
-
   
   .apple {
     margin-top: 0.875em; /*перевести в em*/
@@ -369,16 +364,8 @@ pt to px
   .athlets__connection__message, .athlets__collaboration__message, .athlets__growth__message, .players__connection_message, .players__collaboration_message, .players__growth_message, .be_active__message, .find_contact__message, .work_it__message, .players__connection_message2 {
     display: inline-block;
   }
-  
-  /*.number_underline {
-    display: block;
-    height: 4px;
-    width: 15px;
-    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBB%0D%0AZG9iZSBJbGx1c3RyYXRvciAyMy4wLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9u%0D%0AOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1s%0D%0AbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53%0D%0AMy5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAxNSA0IiBz%0D%0AdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxNSA0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2%0D%0AZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xp%0D%0AcC1ydWxlOmV2ZW5vZGQ7ZmlsbDojNUU0MkIwO30NCjwvc3R5bGU+DQo8cGF0aCBjbGFzcz0ic3Qw%0D%0AIiBkPSJNMS41LDBoMTJDMTQuMywwLDE1LDAuNywxNSwxLjV2MUMxNSwzLjMsMTQuMyw0LDEzLjUs%0D%0ANGgtMTJDMC43LDQsMCwzLjMsMCwyLjV2LTFDMCwwLjcsMC43LDAsMS41LDB6Ii8+DQo8L3N2Zz4N%0D%0ACg==);
-    margin-top: -20px;
-    margin-left: 20px;
-  }*/
-    #dynamicimage {
+
+  #dynamicimage {
     position: absolute;
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBB%0D%0AZG9iZSBJbGx1c3RyYXRvciAyMy4wLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9u%0D%0AOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1s%0D%0AbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53%0D%0AMy5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAxNSA0IiBz%0D%0AdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxNSA0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2%0D%0AZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xp%0D%0AcC1ydWxlOmV2ZW5vZGQ7ZmlsbDojNUU0MkIwO30NCjwvc3R5bGU+DQo8cGF0aCBjbGFzcz0ic3Qw%0D%0AIiBkPSJNMS41LDBoMTJDMTQuMywwLDE1LDAuNywxNSwxLjV2MUMxNSwzLjMsMTQuMyw0LDEzLjUs%0D%0ANGgtMTJDMC43LDQsMCwzLjMsMCwyLjV2LTFDMCwwLjcsMC43LDAsMS41LDB6Ii8+DQo8L3N2Zz4N%0D%0ACg==) no-repeat center/contain;
     width: 1em;
@@ -386,7 +373,8 @@ pt to px
     margin: -20px 0 0 20px;
     content: "";
     }
-     #dynamicimage2 {
+    
+  #dynamicimage2 {
     position: absolute;
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBB%0D%0AZG9iZSBJbGx1c3RyYXRvciAyMy4wLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9u%0D%0AOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1s%0D%0AbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53%0D%0AMy5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAxNSA0IiBz%0D%0AdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxNSA0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2%0D%0AZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xp%0D%0AcC1ydWxlOmV2ZW5vZGQ7ZmlsbDojOEY3QkM4O30NCjwvc3R5bGU+DQo8cGF0aCBjbGFzcz0ic3Qw%0D%0AIiBkPSJNMS41LDBoMTJDMTQuMywwLDE1LDAuNywxNSwxLjV2MUMxNSwzLjMsMTQuMyw0LDEzLjUs%0D%0ANGgtMTJDMC43LDQsMCwzLjMsMCwyLjV2LTFDMCwwLjcsMC43LDAsMS41LDB6Ii8+DQo8L3N2Zz4N%0D%0ACg==) no-repeat center/contain;
     width: 1em;
@@ -394,7 +382,8 @@ pt to px
     margin: -20px 0 0 20px;
     content: "";
     }
-     #dynamicimagew {
+    
+  #dynamicimagew {
     position: absolute;
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBB%0D%0AZG9iZSBJbGx1c3RyYXRvciAyMy4wLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9u%0D%0AOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1s%0D%0AbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53%0D%0AMy5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAxNSA0IiBz%0D%0AdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxNSA0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2%0D%0AZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xp%0D%0AcC1ydWxlOmV2ZW5vZGQ7ZmlsbDojRkZGRkZGO30NCjwvc3R5bGU+DQo8cGF0aCBjbGFzcz0ic3Qw%0D%0AIiBkPSJNMS41LDBoMTJDMTQuMywwLDE1LDAuNywxNSwxLjV2MUMxNSwzLjMsMTQuMyw0LDEzLjUs%0D%0ANGgtMTJDMC43LDQsMCwzLjMsMCwyLjV2LTFDMCwwLjcsMC43LDAsMS41LDB6Ii8+DQo8L3N2Zz4N%0D%0ACg==) no-repeat center/contain;
     width: 1em;
@@ -403,8 +392,6 @@ pt to px
     content: "";
     }
   
-  
-    
   .text {
     font-size: 14px;
   }
@@ -414,7 +401,7 @@ pt to px
     /*margin-bottom: 3px;*/
   }
   
-    .text5 {
+  .text5 {
         font-size: 16px;
     }
   
@@ -433,6 +420,7 @@ pt to px
   .be_active2 {
     color: #8f7bc8;
   }
+    
    /*.find_contact_page {
   position: relative;
 } */
@@ -441,20 +429,20 @@ pt to px
         padding: 10px 20px;
     }*/
     
-    .work_it_page {
-  position: relative;
-}
+  .work_it_page {
+    position: relative;
+  }
     
-    .work_it__preview {
-  display: inline-block;  
+  .work_it__preview {
+    display: inline-block;  
   }
    
-    .footer {
+  .footer {
     position: relative;
 }
     
-    .footer-message {
-        border: 1px solid gold;
+  .footer-message {
+    border: 1px solid gold;
     }  
     
   .footer__body::before {
@@ -470,11 +458,11 @@ pt to px
     margin-top: 75px;
   }
     
-    .footer__title {
+  .footer__title {
         margin-top: 60px;
     }
     
-    .footer__subtitle {
+  .footer__subtitle {
   font-size: 14px;  /*перевести в em*/
         letter-spacing: 0px;
         margin-bottom: 75px;
@@ -553,6 +541,7 @@ pt to px
     width: 205px; /*перевести в em*/
     /*margin-top: 32px;  /*перевести в em*/
   }
+    
   .top__body::before {
      background-image: url("https://raw.githubusercontent.com/varyabeauff/Diploma/master/sources/images/football_1280.jpg");
    }
@@ -566,10 +555,6 @@ pt to px
      background-image: url("https://raw.githubusercontent.com/varyabeauff/Diploma/master/sources/images/game_1280.jpg");
    }
     
-    
-
-    
-  
   h1 {
     font-size: 80px;  /*!перевести в em*/
      /* margin-left: 60px;/*перевести в em*/
@@ -592,20 +577,18 @@ pt to px
     line-height: 28px; /*перевести в em*/
   }
     
-    .top__body, .footer__body {
+  .top__body, .footer__body {
   position: relative;   /*убрать, если появились лишние места*/
   padding: 20px 32px;   /*перевести в em*/ 
   box-sizing: border-box;
 }
     
-  
   .top__title {
       /*margin: 20px; от фонаря*/
       margin-top: 180px; /*перевести в em*/
       margin-bottom: 20px;
     }
-    
-  
+      
   .top__title1 {
     margin-top: 5px; /*от фонаря перевести в em*/
     margin-left: 195px; /*перевести в em*/
@@ -625,8 +608,7 @@ pt to px
         justify-content: center;
     }
  */
-/*.download {
-    
+/*.download {    
   width: 310px;
   height: 77px;
   /*float: left;
@@ -657,7 +639,7 @@ pt to px
   font-size: 14px; /*перевести в em
 }
     
-    .google__icon, .apple__icon {
+.google__icon, .apple__icon {
   position: absolute;
   height: 44px;
 }
@@ -675,16 +657,13 @@ pt to px
       flex-wrap: wrap;
    justify-content: space-evenly;*/
 
-  }
-    
-   
+  }   
   
   .athlets__title, .players__title {
     margin-top: 25px; /*перевести в em*/
     margin-bottom: 30px; /*перевести в em*/
     letter-spacing: 3px;
-  }
-   
+  }   
   
   .athlets__preview, {
       /*display: inline-block;   /*?*/
@@ -694,7 +673,7 @@ pt to px
      z-index: 100;  /*?*/
   }
     
-   .players__preview {
+  .players__preview {
       /*display: block;   /*?*/
     margin-top: 100px;
      z-index: 5;  /*?*/
@@ -712,11 +691,9 @@ pt to px
       background-color: white;
   }
     
-    .athlets__connection, .athlets__collaboration, .athlets__growth, .athlets__title {
+  .athlets__connection, .athlets__collaboration, .athlets__growth, .athlets__title {
         padding-left: 293px ;
     }
-    
-    
   
   .athlets__connection, .athlets__collaboration, .athlets__growth, .players__connection, .players__collaboration, .players__growth, .be_active__body, .find_contact__body, .work_it__body {
    display: flex;
@@ -731,31 +708,24 @@ pt to px
     }*/
     
     
- #dynamicimage {      
+  #dynamicimage {      
     width: 1.2em;
     height: 1.2em;
     margin: -20px 0 0 30px;
    }
     
-    #dynamicimage2 {
+  #dynamicimage2 {
     width: 1.8em;
     height: 1.4em;
     margin: -20px 0 0 40px;
-}
+}    
     
-    
-    #dynamicimagew {    
+  #dynamicimagew {    
     width: 1.2em;
     height: 1.2em;
     margin: -20px 0 0 30px;
     }   
 
-  /*.number_underline {
-    display: inline-block;
-    border: 1px solid green;
-  }
-  */
-    
   .text {
     font-size: 18px;   /*!перевести в em*/
   }
@@ -765,18 +735,15 @@ pt to px
       margin-top: 48px;       /*подогнала, надо думать как*/
     /*margin-bottom: 3px;*/
   }
+    
   .text_agrowth {
-      font-size: 18px;
+    font-size: 18px;
     color: #0a0e34;
   }
+    
   .text_agrowth2 {
     color: #ffffff;
   }
-  
-  /*.be_active__number {
-    width: 300px;
-    background: #5e42b0;
-  }*/
   
   .be_active, .find_contact, .work_it  {     /*что-от убрала и перестал быть квадратом*/
     width: 116px; /*перевести в em*/
@@ -786,7 +753,7 @@ pt to px
     margin-left: 32px;
   }
     
-    .text5 {
+  .text5 {
         font-size: 24px;  /*pt to px, перевести в em*/
         line-height: 28px;
     }
@@ -803,10 +770,9 @@ pt to px
             text-align: center;
 
     }*/
-    .footer-message {
+  .footer-message {
         border: 1px solid gold;
-    }  
- 
+    }   
     
   .rectangle2 {
     background: linear-gradient (#7751db, #50329c);
@@ -817,25 +783,27 @@ pt to px
     margin-top: 75px;
   }
     
-    .footer__title {
+  .footer__title {
         margin-top: 80px;
     }
     
-    .footer__subtitle {
-  font-size: 36px;  /*перевести в em*/
-        letter-spacing: 0px;
-        margin-bottom: 75px;
+  .footer__subtitle {
+    font-size: 36px;  /*перевести в em*/
+    letter-spacing: 0px;
+    margin-bottom: 75px;
+  }
 }
-    
-    
-    
-}
+
+
+
+
+
 
 @media (min-width: 961px) {
   .body {
     max-width: 1920px;
-    margin-left: auto;
-    margin-right: auto;      
+    /*margin-left: auto;
+    margin-right: auto;    */  
   }    
     
   h1 {
@@ -846,28 +814,27 @@ pt to px
   h1, 
   h2,
   p {
-    letter-spacing: 2px; 
+    letter-spacing: 3px; 
   }
   
   h2 {
     font-size: 2.25em;
     /*margin: 20px;*/
-    line-height: 34px; /*перевести в em*/       
+    /*line-height: 34px; /*перевести в em*/       
   }  
   
   p {
     font-size: 1.25em; 
-    margin: 20px; /*перевести в em*/
+    /*margin: 20px; /*перевести в em*/
     line-height: 18px; /*перевести в em*/
   }
     
   .top-message {
-    padding: 230px 192px 55px;
-    border: 1px solid red;
+    padding: 45px 192px 114px; /*перевести в em*/
    }
   
   .surface_logo_text {
-    width: 191px; /*перевести в em*/
+    width: 11.87em; /*перевести в em*/
     /*margin-top: 32px;  перевести в em*/
   }
   
@@ -877,7 +844,7 @@ pt to px
   
   .store_buttons {
     /*border: 1px solid blue;*/
-    margin: 140px 20px;   /*это зависит от медиа*/
+    /*margin: 140px 20px;   /*это зависит от медиа*/
       /*align-content: space-around;*/
     /*position: relative;*/
   }
@@ -888,17 +855,20 @@ pt to px
   
   .top__body, .footer__body {
     position: relative;   /*убрать, если появились лишние места*/
-    padding: 20px 32px;   /*перевести в em*/ 
+    /*padding: 20px 32px;   /*перевести в em*/ 
     box-sizing: border-box;
-}
+  }
+    
   .top__title {
       /*margin: 20px; от фонаря*/
-      margin-top: 180px; /*перевести в em*/
-      margin-bottom: 20px;
+      margin-top: 290px; /*перевести в em*/
+      /*margin-bottom: 20px;*/
+      font-size: 5.6em;
     }
+    
   .top__title1 {
     margin-top: 5px; /*от фонаря перевести в em*/
-    margin-left: 195px; /*перевести в em*/
+    /*margin-left: 195px; /*перевести в em*/
     text-align: right;
   }
     
@@ -1019,7 +989,9 @@ pt to px
     
 /*_____________________________________________!!!!сделать все одной высоты!!!______________________________*/    
     
-  .be_active, .find_contact, .work_it {
+  .be_active, 
+  .find_contact, 
+  .work_it {
     width: 168px;
     height: 155px;
     padding: 20px 30px;
@@ -1031,7 +1003,9 @@ pt to px
     background: #5e42b0;
   }
     
-  .be_active__message, .find_contact__message, .work_it__message {
+  .be_active__message, 
+  .find_contact__message, 
+  .work_it__message {
     max-width: 50%;
     padding: 20px 30px;
     box-sizing: border-box;
@@ -1040,7 +1014,8 @@ pt to px
     border: 1px solid blue; 
   }
     
-  .be_active__message, .work_it__message {
+  .be_active__message, 
+  .work_it__message {
     padding-left: 8.125em;
     padding-right: 8.125em;
   }   
@@ -1081,11 +1056,11 @@ pt to px
     
   .rectangle2 {
     background: linear-gradient (#7751db, #50329c);
-    border-radius: 20px;  
-    padding: 20px 14px; 
-    width: 130px;
-    height: 138px;
-    margin-top: 75px;      
+    border-radius: 20px;  /*перевести в em*/
+    padding: 20px 14px; /*перевести в em*/ 
+    width: 130px; /*перевести в em*/
+    height: 138px; /*перевести в em*/
+    margin-top: 55px;      /*перевести в em*/
   }
     
   .be_active__preview, 
@@ -1109,20 +1084,20 @@ pt to px
     /*---------------------выровнять иконку относительно текста!!!-----------------*/
     
     .footer__title {
-       /* margin-top: 80px;*/
+        margin-top: 60px;
     }
     
     .footer__subtitle {
         font-size: 36px;  /*перевести в em*/
         letter-spacing: 0px;
-        /*margin-bottom: 75px;*/        
+        margin-bottom: 75px;        
         text-align: left;
 }
     .download__text {
-        margin-left: 40px;
+       margin-left: 40px;
     }
     .download apple {
-        margin-left: 50px;
+       margin-left: 50px;
     }
     
     .store_buttons {
@@ -1130,3 +1105,4 @@ pt to px
         margin-top: 150px;
     }
 }
+

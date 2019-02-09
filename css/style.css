@@ -9,10 +9,9 @@ url('/sources/fonts/OpenSans-Bold.woff2') format("woff2"),
 url('/sources/fonts/OpenSans-Bold.ttf') format('truetype');
 }
 
-/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');*/
 
 * {
-	box-sizing : border-box; 
+  box-sizing : border-box; 
 }
 
 html {
@@ -33,16 +32,13 @@ h1, h2 {
   font-weight: 700;
 }
 
-
 p {
   text-align: left;
 }
 
-
 /*всем бэкграунд изображениям добавить бэкграунд колор если не загрузятся!!
 
 pt to px
-
 
 паддинги проверить!!!!!!*/
 
@@ -88,7 +84,6 @@ pt to px
 }
 
 .top-message {
-
   border: 1px solid gold;
 }
 
@@ -120,7 +115,7 @@ pt to px
 }
 
 .dfn {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .download:hover {
@@ -131,7 +126,6 @@ pt to px
 .google__icon, .apple__icon {
   fill: #ffffff; 
 }
-
 
 .athlets_page {
   border: 1px solid red;
@@ -186,25 +180,6 @@ pt to px
   border: 1px solid red;
 }
 
-.find_contact_page {
-  border: 1px solid red;
-}
-
-
-
-.work_it_page {
-  border: 1px solid red;
-}
-
-
-
-.footer {
-  border: 1px solid green;
-    /*position: relative;*/
-}*
-
-
-
 .footer__body::before {
   background-size: cover;
   background-position: center;
@@ -251,22 +226,14 @@ pt to px
   text-align: center;
 }
 
-
-
-
-
-
-@media (max-width: 640px) {  /*телефон*/
-    
-    
+@media (max-width: 640px) {  /*телефон*/  
+  
   .surface_logo_text {
     width: 8.25em; 
-    /*margin-top: 11.4em;  */
   }
   
   h1 {
     font-size: 1.75em;  
-    /*margin: 20px;*/
   }
   
   h1, h2, p {
@@ -296,13 +263,12 @@ pt to px
   }
   
   .top__title {
-      /*margin: 20px; от фонаря*/
       margin-top: 135px; /*перевести в em*/
     }
     
   
   .top__title1 {
-    margin-top: 13px; /*от фонаря перевести в em*/
+    margin-top: 13px; /*перевести в em*/
     margin-left: 44px; /*перевести в em*/
   }
     
@@ -405,6 +371,7 @@ pt to px
     margin: -20px 0 0 20px;
     content: "";
     }
+	
      #dynamicimage2 {
     position: absolute;
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBB%0D%0AZG9iZSBJbGx1c3RyYXRvciAyMy4wLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9u%0D%0AOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1s%0D%0AbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53%0D%0AMy5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAxNSA0IiBz%0D%0AdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxNSA0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2%0D%0AZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xp%0D%0AcC1ydWxlOmV2ZW5vZGQ7ZmlsbDojOEY3QkM4O30NCjwvc3R5bGU+DQo8cGF0aCBjbGFzcz0ic3Qw%0D%0AIiBkPSJNMS41LDBoMTJDMTQuMywwLDE1LDAuNywxNSwxLjV2MUMxNSwzLjMsMTQuMyw0LDEzLjUs%0D%0ANGgtMTJDMC43LDQsMCwzLjMsMCwyLjV2LTFDMCwwLjcsMC43LDAsMS41LDB6Ii8+DQo8L3N2Zz4N%0D%0ACg==) no-repeat center/contain;
@@ -413,6 +380,7 @@ pt to px
     margin: -20px 0 0 20px;
     content: "";
     }
+	
      #dynamicimagew {
     position: absolute;
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBB%0D%0AZG9iZSBJbGx1c3RyYXRvciAyMy4wLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9u%0D%0AOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1s%0D%0AbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53%0D%0AMy5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAxNSA0IiBz%0D%0AdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxNSA0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2%0D%0AZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xp%0D%0AcC1ydWxlOmV2ZW5vZGQ7ZmlsbDojRkZGRkZGO30NCjwvc3R5bGU+DQo8cGF0aCBjbGFzcz0ic3Qw%0D%0AIiBkPSJNMS41LDBoMTJDMTQuMywwLDE1LDAuNywxNSwxLjV2MUMxNSwzLjMsMTQuMyw0LDEzLjUs%0D%0ANGgtMTJDMC43LDQsMCwzLjMsMCwyLjV2LTFDMCwwLjcsMC43LDAsMS41LDB6Ii8+DQo8L3N2Zz4N%0D%0ACg==) no-repeat center/contain;
@@ -422,15 +390,12 @@ pt to px
     content: "";
     }
   
-  
-    
-  .text {
+   .text {
     font-size: 14px;
   }
   
   .text1 {
     font-size: 14px;
-    /*margin-bottom: 3px;*/
   }
   
     .text5 {
@@ -1026,7 +991,6 @@ pt to px
     .footer__subtitle {
         font-size: 36px;  /*перевести в em*/
         letter-spacing: 0px;
-        /*margin-bottom: 75px;*/        
         text-align: left;
 }
     .download__text {
